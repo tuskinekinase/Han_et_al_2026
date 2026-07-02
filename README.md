@@ -13,6 +13,7 @@ The current code repository contains MATLAB codes used for Han et al. (2026).
 ## 3. Auditory Electrophysiology
 - Electrophysiological signals were collected using an RZ2 multiprocessor, RS4 data streamer, and accompanying software (Synapse, TDT). Single-unit responses were isolated offline using OpenSorter and OpenExplorer (TDT).
 - A series of custom code was written to extract only sorted data from TDT tanks after processing through OpenSorter and OpenExplorer. Unit raster data were saved into a data structure together with calculated firing rates, as well as Rayleigh statistics and vector strength (for trill and flat FM responses only).
+- Plotting code for unit profiles (including FRA and trill FM) used for Figure 3 is also included.
 - Although trill unit extraction code is included as an example, it is adviced to write your own code extraction tool to fit your recording condition and data structure.
 
 ## 4. Neural Data Analysis
