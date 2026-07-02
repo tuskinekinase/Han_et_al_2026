@@ -18,10 +18,12 @@ The current code repository contains MATLAB codes used for Han et al. (2026).
 
 ## 4. Neural Data Analysis
 ### 4.1 Single-Unit Response Characterization
-- Basic calculation of firing rates at different time  window, as well as Rayleigh statsitics and vector strength, are included in the previous section.
+- Basic calculation codes for firing rates at different time  windows, as well as Rayleigh statsitics and vector strength, are included in the previous section.
 - The current folder contains GLM codes, codes used for finding best FM rates and depths, as well as corresponding plotting codes.
-- For best frequency, best FM rate and best FM depth data, a manually curated .mat file is needed. An example (bestFMratedepth_listnew.mat) is included in folder.
+- For best frequency, best FM rate and best FM depth data, a manually curated .mat file for the data construct is needed. An example (bestFMratedepth_listnew.mat) is included in folder.
 - The violin plot function used in these plotting codes was written by [Bastian Bechtold](https://github.com/bastibe/Violinplot-Matlab).
 - Statistical tests were conducted with [JASP](https://jasp-stats.org/).
 
 ### 4.2 Population Trajectory Analysis
+- The current folder contains codes for unit equal-N resampling, PCA analysis and Euclidean distance analysis.
+- Plotting code is incorporated into the analysis codes.
