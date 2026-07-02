@@ -20,6 +20,7 @@ The current code repository contains MATLAB codes used for Han et al. (2026).
 ### 4.1 Single-Unit Response Characterization
 - Basic calculation of firing rates at different time  window, as well as Rayleigh statsitics and vector strength, are included in the previous section.
 - The current folder contains GLM codes, codes used for finding best FM rates and depths, as well as corresponding plotting codes.
+- For best frequency, best FM rate and best FM depth data, a manually curated .mat file is needed. Example is included in folder.
 - The violin plot function used in these plotting codes was written by [Bastian Bechtold](https://github.com/bastibe/Violinplot-Matlab)
 
 ### 4.2 Population Trajectory Analysis
